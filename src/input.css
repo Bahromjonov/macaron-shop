@@ -3,43 +3,27 @@
 @tailwind utilities;
 
 
-@layer components {
-    .nav-link {
-      @apply text-opacity-80 text-sm font-normal text-black
-    }
-  .header-still{
-    @apply text-stone-900 text-sm font-normal uppercase
-  }
-    .containerr {
-      @apply w-full max-w-1280 mx-auto px-5 py-4
-    }
+@layer utilities {
+  .nav-link {
+    @apply text-opacity-80 text-sm font-normal text-black;
   }
 
-  *{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  .header-still {
+    @apply text-stone-900 text-sm font-normal uppercase;
   }
-  
-  
-  .nimma {
-    transition: all 0.4s ease;
-    visibility: hidden;
+
+  .containerr {
+    @apply w-full max-w-1280 mx-auto px-5;
   }
-  
-  .nima:hover~.nimma {
-    visibility: visible;
-    transition: all 2s ease;
+
+  .containerr-main {
+    @apply w-full max-w-1200 mx-auto px-5;
   }
-  
-  .nimma:hover {
-    visibility: visible;
+
+  .main-link {
+    @apply text-zinc-800 text-xl font-semibold;
   }
-  .liner{
-  
+  .services-text{
+    @apply text-zinc-800 text-base font-normal
   }
-  .gradient-div {
-    padding: 20px;
-    background: linear-gradient(33deg, #FEE9DC 50%, 50%, #FEE9DC); 
-     border-radius: 10px;
-  }
+}

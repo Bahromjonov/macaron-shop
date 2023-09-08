@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nimma {
+    transition: all 0.4s ease;
+    visibility: hidden;
+}
+
+.nima:hover~.nimma {
+    visibility: visible;
+    transition: all 2s ease;
+}
+
+.nimma:hover {
+    visibility: visible;
+}
+.gradient-div {
+    background: linear-gradient(to bottom right, #FEE9DC 50%, #FDE0CD 50%);
+    border-radius: 10px;
+  }
+.gradient-sobrat  {
+    background: linear-gradient(to bottom left,#FEDBE1 50%,  #FDCCD4  50%);
+    border-radius: 10px;
+  }
+  
+ 
