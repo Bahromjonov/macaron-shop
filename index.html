@@ -8,83 +8,86 @@
     <!-- Favikon link -->
     <link rel="icon" href="./img/logo.svg" type="image/x-icon">
     <title>macaron shop</title>
-    <!-- <link rel="stylesheet" href="./src/input.css"> -->
+    <!-- Tailwind CSS kutubxonasi -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
-<body>
-
+<body style="user-select: none;">
     <!-- Top -->
-    <div class="bg-musicalMist">
+    <div class="bg-musicalMist text-black">
         <div class="containerr flex items-center justify-between">
             <nav>
-                <ul class="flex items-center space-x-3.5">
+                <ul class="flex  space-x-3.5 ">
                     <li>
-                        <a class="nav-link" href="#">Гарантия свежести</a>
+                        <a class="text-opacity-80 text-sm font-normal" href="#">Гарантия свежести</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Доставка и оплата</a>
+                        <a class="text-opacity-80 text-sm font-normal" href="#">Доставка и оплата</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Оптовые поставки</a>
+                        <a class="text-opacity-80 text-sm font-normal" href="#">Оптовые поставки</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="#">Контакты</a>
+                        <a class="text-opacity-80 text-sm font-normal" href="#">Контакты</a>
                     </li>
                 </ul>
             </nav>
-            <!-- Top данные -->
-            <div class="flex items-center space-x-8">
-                <!-- Санкт-Петербург  -->
-                <div class=" relative flex items-center ">
-                    <!-- 1 -->
-                    <div class="nima flex items-center">
-                        <img width="24" height="24" src="./img/location.svg" alt="location icon">
-                        <span class="mr-1 nav-link">Санкт-Петербург</span>
-                        <img width="10" height="15" src="./img/down-icon.svg" alt="down icon">
-                    </div>
-                    <!-- Санкт-Петербург link  -->
-                    <div class="absolute nimma top-10 bg-musicalMist   w-full border p-5 rounded-lg ">
-                        <a class="text-sm font-normal " href="#">Birnimadcxdfzs</a>
-                    </div>
 
+            <div class="flex items-center space-x-8">
+                <div class="flex items-center relative">
+                    <img width="24" height="24" src="./img/location.svg" alt="location icon">
+                    <button class="js-kompaini flex text-sm font-normal uppercase ">
+                        <span>КОМПАНИЯМ</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                    <div
+                        class="absolute top-10 bg-musicalMist text-black w-full border p-5 rounded-lg collapseContent hidden">
+                        <a class="text-sm font-normal uppercase" href="#">Birnima</a>
+                    </div>
                 </div>
-                <!-- ТЕЛЕФОН -->
                 <div class="flex items-center ">
                     <img width="11" height="18" class="mr-1" src="./img/phone.svg" alt="phone icon">
                     <a class="text-opacity-90 text-sm font-normal" href="tel:+998936949003">8 812 309-82-88</a>
                 </div>
-                <!-- Корзина  -->
-                <div class="relative">
-                    <a class="flex items-center" href="#">
-                        <img class="mr-2.5" src="./img/basket.svg" alt="basket icon">
-                        <div
-                            class="w-3.5 h-3.5 flex justify-center items-center absolute bg-black text-white  text-[10px] font-normal rounded-full translate-x-1/2 -bottom-1/4">
-                            4</div>
-                        <span>В корзине (<span>4</span> товара)</span>
-                    </a>
+                <div>
+                    <div class="relative">
+                        <a class="flex items-center" href="#">
+                            <img class="mr-2.5" src="./img/basket.svg" alt="basket icon">
+                            <div
+                                class="w-3.5 h-3.5 flex justify-center items-center absolute bg-black text-white  text-[10px] font-normal rounded-full translate-x-1/2 -bottom-1/4">
+                                4</div>
+                            <span>В корзине (<span>4</span> товара)</span>
+                        </a>
 
+                    </div>
                 </div>
-                <!-- Cоциальные сети -->
-                <ul class="flex space-x-2.5">
-                    <li>
-                        <a href="#">
-                            <img width="24" height="24" src="./img/tg.svg" alt="telegram icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img width="24" height="24" src="./img/vk.svg" alt="weka icon">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img width="24" height="24" class="w-6 h-6" src="./img/odno.svg" alt="odnoklassiki icon">
-                        </a>
-                    </li>
-                </ul>
-    
             </div>
+            <!-- Social Networks -->
+            <ul class="flex space-x-2.5">
+                <li>
+                    <a href="#">
+                        <img width="24" height="24" src="./img/tg.svg" alt="telegram icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="24" height="24" src="./img/vk.svg" alt="weka icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img width="24" height="24" class="w-6 h-6" src="./img/odno.svg" alt="odnoklassiki icon">
+                    </a>
+                </li>
+            </ul>
+
         </div>
     </div>
 
@@ -92,26 +95,26 @@
     <header class="w-full max-w-1200 mx-auto px-5">
         <ul class="flex items-center justify-between py-5">
             <li class="relative mr-2.5">
-                <a class="header-still flex items-center justify-end" href="#">СЛАДКИЕ ДНИ
+                <a class="text-stone-900 text-sm font-normal flex items-center justify-end" href="#">СЛАДКИЕ ДНИ
                     <div
                         class="w-6 h-6 rounded-full flex absolute justify-center items-center bg-[#E7426A] text-white -right-7">
                         %</div>
                 </a>
             </li>
             <li>
-                <div class="flex items-center ">
-                    <!-- ota  -->
-                    <div class=" relative flex text-sm font-normal  ">
-                        <!-- 1 -->
-                        <div class="nima flex items-center">
-                            <span class="mr-1 header-still  uppercase">подарочные наборы</span>
-                            <img width="10" height="10" src="./img/down-icon.svg" alt="down icon">
-                        </div>
-                        <!-- birnima  -->
-                        <div
-                            class="absolute nimma top-10 bg-musicalMist text-black w-full border p-5 rounded-lg podarochnie">
-                            <a class="text-sm font-normal " href="#">Birnima</a>
-                        </div>
+                <div class="flex items-center relative">
+                    <button class="js-podarochnie flex text-sm font-normal uppercase ">
+                        <span>подарочные наборы</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                    <div
+                        class="absolute top-10 bg-musicalMist text-black w-full border p-5 rounded-lg podarochnie hidden">
+                        <a class="text-sm font-normal uppercase" href="#">Birnima</a>
                     </div>
                 </div>
             </li>
@@ -129,33 +132,31 @@
             </li>
             <!-- КОМПАНИЯМ -->
             <li>
-                <!-- КОМПАНИЯМ  -->
-                <div class=" relative flex items-center ">
-                    <!-- 1 -->
-                    <div class="nima flex items-center">
-                        <span class="mr-1 nav-link">КОМПАНИЯМ</span>
-                        <img width="10" height="15" src="./img/down-icon.svg" alt="down icon">
-                    </div>
-                    <!-- КОМПАНИЯМ link  -->
-                    <div class="absolute nimma top-10 bg-musicalMist   w-full border p-5 rounded-lg ">
-                        <a class="text-sm font-normal " href="#">Birnima</a>
-                    </div>
+                <button class="js-kompaini2 flex text-sm font-normal uppercase">
+                    <span>КОМПАНИЯМ</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
 
+                <div class="absolute  bg-musicalMist text-black  border p-5 rounded-lg collapseContent2 hidden">
+                    <a class="text-sm font-normal uppercase" href="#">Birnima</a>
                 </div>
             </li>
             <li>
-                <!-- КОМПАНИЯМ  -->
-                <div class=" relative flex items-center ">
-                    <!-- 1 -->
-                    <div class="nima flex items-center">
-                        <span class="mr-1 nav-link">КОМПАНИЯМ</span>
-                        <img width="10" height="15" src="./img/down-icon.svg" alt="down icon">
-                    </div>
-                    <!-- КОМПАНИЯМ link  -->
-                    <div class="absolute nimma top-10 bg-musicalMist   w-full border p-5 rounded-lg ">
-                        <a class="text-sm font-normal " href="#">Nima gaplar</a>
-                    </div>
+                <button class="js-katalog flex text-sm font-normal uppercase">
+                    <span>ВЕСЬ КАТАЛОГ</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
 
+                <div class="absolute  bg-musicalMist text-black  border p-5 rounded-lg katalog hidden">
+                    <a class="text-sm font-normal uppercase" href="#">Birnima</a>
                 </div>
             </li>
         </ul>
@@ -180,9 +181,9 @@
         <div class="text-center relative">
             <h1 class=" text-[22px] font-semibold uppercase">Macaronshop</h1>
             <div class="flex items-center justify-center space-x-2.5 mb-6">
-                <img width="29" src="./img/Line.png" alt="line icon">
+                <img src="./img/Line.png" alt="line icon">
                 <span class=" text-base font-semibold">since 2013</span>
-                <img width="29" src="./img/Line.png" alt="line icon">
+                <img src="./img/Line.png" alt="line icon">
             </div>
             <h2 class="text-42 font-semibold mb-3">Настоящая любовь</h2>
             <p class="text-lg font-normal">Пирожные макарон и другие десерты <br> из натуральных ингредиентов,
@@ -193,7 +194,16 @@
             </div>
         </div>
     </section>
+    <!-- Main -->
+    <main class="w-full max-w-1280 mx-auto px-5 pt-16 text-zinc-800">
+        <div class="grid grid-cols-2 gap-30">
 
+
+
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
