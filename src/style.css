@@ -29,11 +29,18 @@ body {
 .gradient-svadebnie {
     background: linear-gradient(to bottom right, #FDE0CD 50%,  #FEE9DC 50%);
   }
+.gradient-korporativnie {
+    background: linear-gradient(to bottom right, #CCEAEB 50%, #B7E1E3  50%);
+  }
 .gradient-sobrat  {
     background: linear-gradient(to bottom left,#FEDBE1 50%,  #FDCCD4  50%);
+  }
+.gradient-optovie  {
+    background: linear-gradient(to bottom left,#DDDDF3  50%,#CECFEE 50%);
   }
 .gradient-individalnoy {
     background: linear-gradient(to bottom left,#C1ECC0  50%,#D3F2D3 50%);
   }
  
  
+  
