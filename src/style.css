@@ -25,11 +25,15 @@ body {
 }
 .gradient-div {
     background: linear-gradient(to bottom right, #FEE9DC 50%, #FDE0CD 50%);
-    border-radius: 10px;
+  }
+.gradient-svadebnie {
+    background: linear-gradient(to bottom right, #FDE0CD 50%,  #FEE9DC 50%);
   }
 .gradient-sobrat  {
     background: linear-gradient(to bottom left,#FEDBE1 50%,  #FDCCD4  50%);
-    border-radius: 10px;
   }
-  
+.gradient-individalnoy {
+    background: linear-gradient(to bottom left,#C1ECC0  50%,#D3F2D3 50%);
+  }
+ 
  
